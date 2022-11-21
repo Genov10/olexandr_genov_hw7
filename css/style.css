@@ -1,0 +1,46 @@
+/* RESET */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    line-height: 1;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* HEADER */
+.header {
+    background: #373f51;
+    border-bottom: 7px solid #00bfff;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__item {
+    padding: 2%;
+}
+
+.submenu {
+    display: none;
+}
